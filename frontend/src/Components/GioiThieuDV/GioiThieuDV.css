@@ -1,0 +1,78 @@
+.gioithieu-dichvu{
+    background-color: white;
+    margin: 0;  
+    padding: 0;
+}
+.container-dv{
+    margin: 0 auto;
+    padding: 2rem;
+    margin-bottom: 40px;
+}
+.container-dv h1{
+    text-align: center;
+    font-size: 44px;
+    color: #1B374E;
+    margin-bottom: 50px;
+}
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 70px;
+    margin-left: 140px;
+}
+/* .service-card{
+    border: 1px solid #1B374E;
+    border-radius: 10px;
+    padding: 20px;
+    width: 650px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+.service-card {
+    padding: 20px;
+    width: 500px;
+    height: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: visible; /* Cho phép phần tử con tràn ra ngoài */
+}
+.service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1px; /* Điều chỉnh độ rộng của viền */
+    background: linear-gradient(0deg, #7F8160 0%, #A2C1E2 100%);
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor; 
+    mask-composite: exclude;
+}   
+.img-service{
+    position: absolute;
+    top: -50px; /* Điều chỉnh giá trị để căn chỉnh theo chiều dọc */
+    left: 30px; /* Điều chỉnh giá trị để căn chỉnh theo chiều ngang */
+    z-index: 10; /* Đảm bảo img nằm trên service-card */
+    width: 120px; /* Điều chỉnh kích thước để phù hợp hơn */
+    height: 120px;
+}
+.service-card img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.service-card h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #1B374E;
+    margin: 20px 0px 10px;
+}
+.service-card p{
+    font-size: 16px;
+    color: #1B374E;
+    text-align: justify;
+}

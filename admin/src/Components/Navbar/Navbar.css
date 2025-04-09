@@ -1,0 +1,41 @@
+.navbar{
+    width: 240px;
+    background-color: #1B374E;
+    position: absolute;
+    height: 100vh;
+    padding: 0 30px;
+    left: -100%;
+    transition: all 1s;
+}
+.navbar.active{
+    left: 0;
+}
+.navbar ul{
+    padding: 0;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.navbar ul li .active{
+    background-color: #244a6a; 
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex; /* Đặt các phần tử con (icon và text) theo hàng ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+.navbar ul li a:hover,
+.navbar ul li a:active{
+    background-color: #244a6a; 
+}
+.navbar ul li a svg{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    justify-content: center;
+}

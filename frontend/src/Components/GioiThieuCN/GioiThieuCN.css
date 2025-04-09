@@ -1,0 +1,52 @@
+.gioithieu-chinhanh{
+    margin: 0;
+    padding: 0;
+}
+.container-cn{
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: flex-start; /* Căn phần tử theo chiều dọc */
+    padding: 20px;
+    background: #FAF6F3;
+    margin-top: 30px;
+}
+.hotel-card{
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 259px;
+    text-align: center;
+}
+.hotel-card img{
+    width: 259px;
+    height: 316px;
+    cursor: pointer;
+}
+.hotel-card h3{
+    font-size: 19px;
+    color: #1B374E;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.hotel-card p{
+    font-size: 15px;
+    color: #1B374E;
+    margin: 0px 10px 10px;
+}
+.about-section{
+    max-width: 400px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+.about-section h2{
+    font-size: 44px;
+    font-weight: 700;
+    color: #1B374E;
+    margin-bottom: 10px;
+}
+.about-section p{
+    font-size: 20px;
+    color: #1B374E;
+    text-align: justify;
+}
