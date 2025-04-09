@@ -23,6 +23,16 @@ BonjourHotel/
 ├── node_modules/
 ├── package.json
 ├── package-lock.json
+
+## 👥 Thành viên thực hiện
+
+| Họ và Tên               | Vai trò             |
+|-------------------------|----------------------|
+| Phạm Nguyễn Hồng Nhung  | Lập trình frontend, Thiết kế giao diện, Kiểm thử phần mềm |
+| Dương Duy Kha           | Lập trình backend, quản lý cơ sở dữ liệu, tích hợp API |
+| Lê Nguyễn Trúc Quỳnh    | Lập trình frontend, Thiết kế giao diện, Kiểm thử phần mềm |
+| Đặng Thị Kim Ngân       | Lập trình backend, quản lý cơ sở dữ liệu, tích hợp API |
+
 ## ⚙️ Cách chạy project
 ```bash
 # Cài đặt dependencies
@@ -34,11 +44,3 @@ npm start
 
 # Backend chạy bằng Spring Boot (qua IDE hoặc terminal)
 ./mvnw spring-boot:run
-## 👥 Thành viên thực hiện
-
-| Họ và Tên               | Vai trò             |
-|-------------------------|----------------------|
-| Phạm Nguyễn Hồng Nhung  | Lập trình frontend, Thiết kế giao diện, Kiểm thử phần mềm |
-| Dương Duy Kha           | Lập trình backend, quản lý cơ sở dữ liệu, tích hợp API |
-| Lê Nguyễn Trúc Quỳnh    | Lập trình frontend, Thiết kế giao diện, Kiểm thử phần mềm |
-| Đặng Thị Kim Ngân       | Lập trình backend, quản lý cơ sở dữ liệu, tích hợp API |
