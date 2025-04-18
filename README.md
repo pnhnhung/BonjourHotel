@@ -1,6 +1,7 @@
 # BonjourHotel 🏨
 
 Một ứng dụng web quản lý khách sạn đơn giản, cho phép người dùng tìm kiếm, đặt phòng, thanh toán và quản lý thông tin khách hàng.
+
 🔗 Link Figma thiết kế giao diện:
 https://www.figma.com/design/G1zYZGLhsJffcx8An0AzpV/CNPM-N%C3%A2ng-Cao?t=NmjQdOSV3wLxqnrU-1
 
